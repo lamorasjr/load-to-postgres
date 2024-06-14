@@ -2,8 +2,4775 @@ cultureInfo en-US
 
 	linguisticMetadata =
 			{
-			  "Version": "1.0.0",
-			  "Language": "en-US"
+			  "Version": "3.5.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "spotify_song": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Spotify Songs"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "spotify song": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "spotify melody": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "spotify ditty": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "spotify ballad": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "spotify composition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "spotify mantra": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "spotify tune": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "spotify air": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "spotify refrain": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "spotify track": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "spotify record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "spotify_song.track_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Spotify Songs",
+			          "ConceptualProperty": "Track Name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "track name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "track": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "track nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "track title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "track label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "track tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "path": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pathway": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "road": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "roadway": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "footpath": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "trajectory": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "spotify_song.artist_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Spotify Songs",
+			          "ConceptualProperty": "Artist Name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "artist name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "artist": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "artist nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "artist title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "artist label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "artist tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "painter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "illustrator": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "drawer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "sketcher": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "cartoonist": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "sculptor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "spotify_song.artist_count": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Spotify Songs",
+			          "ConceptualProperty": "Artist Count"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "artist count": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "artist amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "spotify_song.released_year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Spotify Songs",
+			          "ConceptualProperty": "Released Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "released year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "year": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "released yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "spotify_song.released_month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Spotify Songs",
+			          "ConceptualProperty": "Released Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "released month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "released mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "spotify_song.released_day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Spotify Songs",
+			          "ConceptualProperty": "Released Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "released day": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "spotify_song.in_spotify_playlist": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Spotify Songs",
+			          "ConceptualProperty": "In Spotify Playlists"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "in spotify playlist": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "spotify_song.in_spotify_chart": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Spotify Songs",
+			          "ConceptualProperty": "In Spotify Charts"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "in spotify chart": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "in spotify diagram": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "in spotify plan": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "in spotify graph": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "in spotify table": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "in spotify map": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "spotify_song.stream": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Spotify Songs",
+			          "ConceptualProperty": "Streams"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "stream": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "watercourse": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "torrent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "rivulet": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "beck": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "brook": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "river": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "tributary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "creek": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "crick": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "jet": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "spotify_song.in_apple_playlist": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Spotify Songs",
+			          "ConceptualProperty": "In Apple Playlists"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "in apple playlist": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "playlist": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "apple playlist": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "spotify_song.in_apple_chart": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Spotify Songs",
+			          "ConceptualProperty": "In Apple Charts"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "in apple chart": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "apple chart": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "in apple diagram": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "in apple plan": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "in apple graph": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "in apple table": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "in apple map": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "apple diagram": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "apple plan": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "apple graph": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "apple table": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "apple map": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "spotify_song.in_deezer_playlist": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Spotify Songs",
+			          "ConceptualProperty": "In Deezer Playlists"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "in deezer playlist": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "spotify_song.in_deezer_chart": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Spotify Songs",
+			          "ConceptualProperty": "In Deezer Charts"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "in deezer chart": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "in deezer diagram": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "in deezer plan": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "in deezer graph": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "in deezer table": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "in deezer map": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "spotify_song.in_shazam_chart": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Spotify Songs",
+			          "ConceptualProperty": "In Shazam Charts"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "in shazam chart": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "in shazam diagram": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "in shazam plan": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "in shazam graph": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "in shazam table": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "in shazam map": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "spotify_song.bpm": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Spotify Songs",
+			          "ConceptualProperty": "Bpm"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "bpm": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "spotify_song.key": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Spotify Songs",
+			          "ConceptualProperty": "Key"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "key": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "main": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "basic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "fundamental": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "central": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "major": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "keynote": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "essential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "solution": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "explanation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "basis": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "spotify_song.mode": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Spotify Songs",
+			          "ConceptualProperty": "Mode"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mode": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "method": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "genre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "style": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "mean": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "approach": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "type": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "way": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "kind": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "fashion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "spotify_song.danceability_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Spotify Songs",
+			          "ConceptualProperty": "Danceability %"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "danceability %": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "danceability percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "danceability pct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "spotify_song.valence_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Spotify Songs",
+			          "ConceptualProperty": "Valence %"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "valence %": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "valence percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "valence pct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "spotify_song.energy_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Spotify Songs",
+			          "ConceptualProperty": "Energy %"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "energy %": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "energy percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "energy pct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "spotify_song.acousticness_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Spotify Songs",
+			          "ConceptualProperty": "Acousticness %"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "acousticness %": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "acousticness percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "acousticness pct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "spotify_song.instrumentalness_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Spotify Songs",
+			          "ConceptualProperty": "Instrumentalness %"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "instrumentalness %": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "instrumentalness percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "instrumentalness pct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "spotify_song.liveness_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Spotify Songs",
+			          "ConceptualProperty": "Liveness %"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "liveness %": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "liveness percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "liveness pct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "spotify_song.speechiness_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Spotify Songs",
+			          "ConceptualProperty": "Speechiness %"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "speechiness %": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "speechiness percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "speechiness pct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "spotify_song.release_date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Spotify Songs",
+			          "ConceptualProperty": "Release Date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "release date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "release moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "release period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "spotify_song.release_date.variation.date_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Spotify Songs",
+			          "VariationSource": "Release Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "release date hierarchy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "spotify_song.release_date.variation.date_hierarchy.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Spotify Songs",
+			          "VariationSource": "Release Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "release year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "release date year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date year": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "release date yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "release yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "date yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "release moment year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "moment year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "release period year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "period year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "spotify_song.release_date.variation.date_hierarchy.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Spotify Songs",
+			          "VariationSource": "Release Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "release quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "release date quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date quarter": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "release date qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.846
+			          }
+			        },
+			        {
+			          "release qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.833
+			          }
+			        },
+			        {
+			          "date qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.833
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        },
+			        {
+			          "release moment quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "moment quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "release period quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "period quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "spotify_song.release_date.variation.date_hierarchy.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Spotify Songs",
+			          "VariationSource": "Release Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "release month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "release date month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date month": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "release date mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "release mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "date mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "release moment month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "moment month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "release period month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "period month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "spotify_song.release_date.variation.date_hierarchy.day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Spotify Songs",
+			          "VariationSource": "Release Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "release day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "release date day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date day": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "release moment day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "moment day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "release period day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "period day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "spotify_song.of_total_streams": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Spotify Songs",
+			          "ConceptualProperty": "% of Total Streams"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% of total streams": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage of total stream": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "pct of total stream": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "% of aggregate stream": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "% of overall stream": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "spotify_song.top_track_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Spotify Songs",
+			          "ConceptualProperty": "Select Track Name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "select track name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "track": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "select track": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "select track nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "select track title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "select track label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "select track tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "select path": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "select pathway": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "select road": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "select roadway": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "select footpath": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "select trajectory": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "Track Name": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "spotify_song.released_date_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Spotify Songs",
+			          "Hierarchy": "Released Date Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "released date hierarchy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "released moment hierarchy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "released period hierarchy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "released date ladder": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "released date grading": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "released date order": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "released date pyramid": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "ladder": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "grading": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "order": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "pyramid": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "spotify_song.released_date_hierarchy.released_year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Spotify Songs",
+			          "Hierarchy": "Released Date Hierarchy",
+			          "HierarchyLevel": "Released Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "released year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "released yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "spotify_song.released_date_hierarchy.released_month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Spotify Songs",
+			          "Hierarchy": "Released Date Hierarchy",
+			          "HierarchyLevel": "Released Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "released month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "released mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "spotify_song.released_date_hierarchy.released_day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Spotify Songs",
+			          "Hierarchy": "Released Date Hierarchy",
+			          "HierarchyLevel": "Released Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "released day": {
+			            "State": "Generated"
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "data_quality": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Data Quality"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data quality": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quality": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "information quality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact quality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info quality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic quality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document quality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure quality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record quality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "data excellence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "data superiority": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "data eminence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        }
+			      ]
+			    },
+			    "data_quality.column": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Data Quality",
+			          "ConceptualProperty": "Column"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "column": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "pilaster": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pillar": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "post": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "support": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "stake": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "pole": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "buttress": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "underpinning": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "contribution": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "data_quality.min": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Data Quality",
+			          "ConceptualProperty": "Min"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "min": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "data_quality.max": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Data Quality",
+			          "ConceptualProperty": "Max"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "max": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "data_quality.average": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Data Quality",
+			          "ConceptualProperty": "Average"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "average": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "regular": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "usual": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "middling": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "run-of-the-mill": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "ordinary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "common": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "standard": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "norm": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "mean": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "median": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "data_quality.standard_deviation": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Data Quality",
+			          "ConceptualProperty": "StandardDeviation"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "standard deviation": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "StandardDeviation": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "deviation": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "standard nonconformity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "standard unconventionality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "standard eccentricity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "standard unorthodoxy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "standard aberration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "standard abnormality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "standard deviance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "standard deviancy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "nonconformity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "unconventionality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "data_quality.count": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Data Quality",
+			          "ConceptualProperty": "Count"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "count": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "data_quality.null_count": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Data Quality",
+			          "ConceptualProperty": "NullCount"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "null count": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "NullCount": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "null amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "data_quality.distinct_count": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Data Quality",
+			          "ConceptualProperty": "DistinctCount"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "distinct count": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DistinctCount": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "distinct amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "spotify_song.top_artist_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Spotify Songs",
+			          "ConceptualProperty": "Select Artist Name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "select artist name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "artist": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "select artist": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "select artist nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "select artist title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "select artist label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "select artist tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "select painter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "select illustrator": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "select drawer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "select sketcher": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "select cartoonist": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "select sculptor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "Artist Name": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "spotify_song.top_release_date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Spotify Songs",
+			          "ConceptualProperty": "Select Release Date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "select release date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "select release moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "select release period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "Release Date": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "spotify_song_released_date_hierarchy_has_released_day": {
+			      "Binding": {
+			        "ConceptualEntity": "Spotify Songs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "spotify_song.released_date_hierarchy": {
+			          "Target": {
+			            "Entity": "spotify_song.released_date_hierarchy"
+			          }
+			        },
+			        "spotify_song.released_date_hierarchy.released_day": {
+			          "Target": {
+			            "Entity": "spotify_song.released_date_hierarchy.released_day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "spotify_song.released_date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "spotify_song.released_date_hierarchy.released_day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "released_date_hierarchies_have_released_days"
+			        }
+			      ]
+			    },
+			    "spotify_song_released_date_hierarchy_has_released_month": {
+			      "Binding": {
+			        "ConceptualEntity": "Spotify Songs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "spotify_song.released_date_hierarchy": {
+			          "Target": {
+			            "Entity": "spotify_song.released_date_hierarchy"
+			          }
+			        },
+			        "spotify_song.released_date_hierarchy.released_month": {
+			          "Target": {
+			            "Entity": "spotify_song.released_date_hierarchy.released_month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "spotify_song.released_date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "spotify_song.released_date_hierarchy.released_month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "released_date_hierarchies_have_released_months"
+			        }
+			      ]
+			    },
+			    "spotify_song_released_date_hierarchy_has_released_year": {
+			      "Binding": {
+			        "ConceptualEntity": "Spotify Songs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "spotify_song.released_date_hierarchy": {
+			          "Target": {
+			            "Entity": "spotify_song.released_date_hierarchy"
+			          }
+			        },
+			        "spotify_song.released_date_hierarchy.released_year": {
+			          "Target": {
+			            "Entity": "spotify_song.released_date_hierarchy.released_year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "spotify_song.released_date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "spotify_song.released_date_hierarchy.released_year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "released_date_hierarchies_have_released_years"
+			        }
+			      ]
+			    },
+			    "spotify_song_release_date_variation_date_hierarchy_has_day": {
+			      "Binding": {
+			        "ConceptualEntity": "Spotify Songs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "spotify_song.release_date.variation.date_hierarchy": {
+			          "Target": {
+			            "Entity": "spotify_song.release_date.variation.date_hierarchy"
+			          }
+			        },
+			        "spotify_song.release_date.variation.date_hierarchy.day": {
+			          "Target": {
+			            "Entity": "spotify_song.release_date.variation.date_hierarchy.day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "spotify_song.release_date.variation.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "spotify_song.release_date.variation.date_hierarchy.day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "release_date_hierarchies_have_release_days"
+			        }
+			      ]
+			    },
+			    "spotify_song_release_date_variation_date_hierarchy_has_month": {
+			      "Binding": {
+			        "ConceptualEntity": "Spotify Songs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "spotify_song.release_date.variation.date_hierarchy": {
+			          "Target": {
+			            "Entity": "spotify_song.release_date.variation.date_hierarchy"
+			          }
+			        },
+			        "spotify_song.release_date.variation.date_hierarchy.month": {
+			          "Target": {
+			            "Entity": "spotify_song.release_date.variation.date_hierarchy.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "spotify_song.release_date.variation.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "spotify_song.release_date.variation.date_hierarchy.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "release_date_hierarchies_have_release_months"
+			        }
+			      ]
+			    },
+			    "spotify_song_release_date_variation_date_hierarchy_has_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "Spotify Songs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "spotify_song.release_date.variation.date_hierarchy": {
+			          "Target": {
+			            "Entity": "spotify_song.release_date.variation.date_hierarchy"
+			          }
+			        },
+			        "spotify_song.release_date.variation.date_hierarchy.quarter": {
+			          "Target": {
+			            "Entity": "spotify_song.release_date.variation.date_hierarchy.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "spotify_song.release_date.variation.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "spotify_song.release_date.variation.date_hierarchy.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "release_date_hierarchies_have_release_quarters"
+			        }
+			      ]
+			    },
+			    "spotify_song_release_date_variation_date_hierarchy_has_year": {
+			      "Binding": {
+			        "ConceptualEntity": "Spotify Songs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "spotify_song.release_date.variation.date_hierarchy": {
+			          "Target": {
+			            "Entity": "spotify_song.release_date.variation.date_hierarchy"
+			          }
+			        },
+			        "spotify_song.release_date.variation.date_hierarchy.year": {
+			          "Target": {
+			            "Entity": "spotify_song.release_date.variation.date_hierarchy.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "spotify_song.release_date.variation.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "spotify_song.release_date.variation.date_hierarchy.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "release_date_hierarchies_have_release_years"
+			        }
+			      ]
+			    },
+			    "spotify_song_release_date_has_variation_date_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "Spotify Songs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "spotify_song.release_date": {
+			          "Target": {
+			            "Entity": "spotify_song.release_date"
+			          }
+			        },
+			        "spotify_song.release_date.variation.date_hierarchy": {
+			          "Target": {
+			            "Entity": "spotify_song.release_date.variation.date_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "spotify_song.release_date"
+			            },
+			            "Object": {
+			              "Role": "spotify_song.release_date.variation.date_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "release_dates_have_release_date_hierarchies"
+			        }
+			      ]
+			    },
+			    "spotify_song_has_top_release_date": {
+			      "Binding": {
+			        "ConceptualEntity": "Spotify Songs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "spotify_song": {
+			          "Target": {
+			            "Entity": "spotify_song"
+			          }
+			        },
+			        "spotify_song.top_release_date": {
+			          "Target": {
+			            "Entity": "spotify_song.top_release_date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "spotify_song"
+			            },
+			            "Object": {
+			              "Role": "spotify_song.top_release_date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "spotify_songs_have_select_release_date"
+			        }
+			      ]
+			    },
+			    "spotify_song_has_top_artist_name": {
+			      "Binding": {
+			        "ConceptualEntity": "Spotify Songs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "spotify_song": {
+			          "Target": {
+			            "Entity": "spotify_song"
+			          }
+			        },
+			        "spotify_song.top_artist_name": {
+			          "Target": {
+			            "Entity": "spotify_song.top_artist_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "spotify_song"
+			            },
+			            "Object": {
+			              "Role": "spotify_song.top_artist_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "spotify_songs_have_select_artist_name"
+			        }
+			      ]
+			    },
+			    "data_quality_has_distinct_count": {
+			      "Binding": {
+			        "ConceptualEntity": "Data Quality"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_quality": {
+			          "Target": {
+			            "Entity": "data_quality"
+			          }
+			        },
+			        "data_quality.distinct_count": {
+			          "Target": {
+			            "Entity": "data_quality.distinct_count"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_quality"
+			            },
+			            "Object": {
+			              "Role": "data_quality.distinct_count"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_qualities_have_distinct_counts"
+			        }
+			      ]
+			    },
+			    "data_quality_has_null_count": {
+			      "Binding": {
+			        "ConceptualEntity": "Data Quality"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_quality": {
+			          "Target": {
+			            "Entity": "data_quality"
+			          }
+			        },
+			        "data_quality.null_count": {
+			          "Target": {
+			            "Entity": "data_quality.null_count"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_quality"
+			            },
+			            "Object": {
+			              "Role": "data_quality.null_count"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_qualities_have_null_counts"
+			        }
+			      ]
+			    },
+			    "data_quality_has_count": {
+			      "Binding": {
+			        "ConceptualEntity": "Data Quality"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_quality": {
+			          "Target": {
+			            "Entity": "data_quality"
+			          }
+			        },
+			        "data_quality.count": {
+			          "Target": {
+			            "Entity": "data_quality.count"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_quality"
+			            },
+			            "Object": {
+			              "Role": "data_quality.count"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_qualities_have_counts"
+			        }
+			      ]
+			    },
+			    "data_quality_has_standard_deviation": {
+			      "Binding": {
+			        "ConceptualEntity": "Data Quality"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_quality": {
+			          "Target": {
+			            "Entity": "data_quality"
+			          }
+			        },
+			        "data_quality.standard_deviation": {
+			          "Target": {
+			            "Entity": "data_quality.standard_deviation"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_quality"
+			            },
+			            "Object": {
+			              "Role": "data_quality.standard_deviation"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_qualities_have_standard_deviations"
+			        }
+			      ]
+			    },
+			    "data_quality_has_average": {
+			      "Binding": {
+			        "ConceptualEntity": "Data Quality"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_quality": {
+			          "Target": {
+			            "Entity": "data_quality"
+			          }
+			        },
+			        "data_quality.average": {
+			          "Target": {
+			            "Entity": "data_quality.average"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_quality"
+			            },
+			            "Object": {
+			              "Role": "data_quality.average"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_qualities_have_averages"
+			        }
+			      ]
+			    },
+			    "data_quality_has_max": {
+			      "Binding": {
+			        "ConceptualEntity": "Data Quality"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_quality": {
+			          "Target": {
+			            "Entity": "data_quality"
+			          }
+			        },
+			        "data_quality.max": {
+			          "Target": {
+			            "Entity": "data_quality.max"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_quality"
+			            },
+			            "Object": {
+			              "Role": "data_quality.max"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_qualities_have_maxes"
+			        }
+			      ]
+			    },
+			    "data_quality_has_min": {
+			      "Binding": {
+			        "ConceptualEntity": "Data Quality"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_quality": {
+			          "Target": {
+			            "Entity": "data_quality"
+			          }
+			        },
+			        "data_quality.min": {
+			          "Target": {
+			            "Entity": "data_quality.min"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_quality"
+			            },
+			            "Object": {
+			              "Role": "data_quality.min"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_qualities_have_mins"
+			        }
+			      ]
+			    },
+			    "data_quality_has_column": {
+			      "Binding": {
+			        "ConceptualEntity": "Data Quality"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_quality": {
+			          "Target": {
+			            "Entity": "data_quality"
+			          }
+			        },
+			        "data_quality.column": {
+			          "Target": {
+			            "Entity": "data_quality.column"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_quality"
+			            },
+			            "Object": {
+			              "Role": "data_quality.column"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_qualities_have_columns"
+			        }
+			      ]
+			    },
+			    "spotify_song_has_released_date_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "Spotify Songs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "spotify_song": {
+			          "Target": {
+			            "Entity": "spotify_song"
+			          }
+			        },
+			        "spotify_song.released_date_hierarchy": {
+			          "Target": {
+			            "Entity": "spotify_song.released_date_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "spotify_song"
+			            },
+			            "Object": {
+			              "Role": "spotify_song.released_date_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "spotify_songs_have_released_date_hierarchies"
+			        }
+			      ]
+			    },
+			    "spotify_song_has_top_track_name": {
+			      "Binding": {
+			        "ConceptualEntity": "Spotify Songs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "spotify_song": {
+			          "Target": {
+			            "Entity": "spotify_song"
+			          }
+			        },
+			        "spotify_song.top_track_name": {
+			          "Target": {
+			            "Entity": "spotify_song.top_track_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "spotify_song"
+			            },
+			            "Object": {
+			              "Role": "spotify_song.top_track_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "spotify_songs_have_select_track_name"
+			        }
+			      ]
+			    },
+			    "spotify_song_has_of_total_streams": {
+			      "Binding": {
+			        "ConceptualEntity": "Spotify Songs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "spotify_song": {
+			          "Target": {
+			            "Entity": "spotify_song"
+			          }
+			        },
+			        "spotify_song.of_total_streams": {
+			          "Target": {
+			            "Entity": "spotify_song.of_total_streams"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "spotify_song"
+			            },
+			            "Object": {
+			              "Role": "spotify_song.of_total_streams"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "spotify_songs_have__of_total_streams"
+			        }
+			      ]
+			    },
+			    "spotify_song_has_release_date": {
+			      "Binding": {
+			        "ConceptualEntity": "Spotify Songs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "spotify_song": {
+			          "Target": {
+			            "Entity": "spotify_song"
+			          }
+			        },
+			        "spotify_song.release_date": {
+			          "Target": {
+			            "Entity": "spotify_song.release_date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "spotify_song"
+			            },
+			            "Object": {
+			              "Role": "spotify_song.release_date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "spotify_songs_have_release_dates"
+			        }
+			      ]
+			    },
+			    "spotify_song_has_speechiness_": {
+			      "Binding": {
+			        "ConceptualEntity": "Spotify Songs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "spotify_song": {
+			          "Target": {
+			            "Entity": "spotify_song"
+			          }
+			        },
+			        "spotify_song.speechiness_": {
+			          "Target": {
+			            "Entity": "spotify_song.speechiness_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "spotify_song"
+			            },
+			            "Object": {
+			              "Role": "spotify_song.speechiness_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "spotify_songs_have_speechiness_"
+			        }
+			      ]
+			    },
+			    "spotify_song_has_liveness_": {
+			      "Binding": {
+			        "ConceptualEntity": "Spotify Songs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "spotify_song": {
+			          "Target": {
+			            "Entity": "spotify_song"
+			          }
+			        },
+			        "spotify_song.liveness_": {
+			          "Target": {
+			            "Entity": "spotify_song.liveness_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "spotify_song"
+			            },
+			            "Object": {
+			              "Role": "spotify_song.liveness_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "spotify_songs_have_liveness_"
+			        }
+			      ]
+			    },
+			    "spotify_song_has_instrumentalness_": {
+			      "Binding": {
+			        "ConceptualEntity": "Spotify Songs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "spotify_song": {
+			          "Target": {
+			            "Entity": "spotify_song"
+			          }
+			        },
+			        "spotify_song.instrumentalness_": {
+			          "Target": {
+			            "Entity": "spotify_song.instrumentalness_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "spotify_song"
+			            },
+			            "Object": {
+			              "Role": "spotify_song.instrumentalness_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "spotify_songs_have_instrumentalness_"
+			        }
+			      ]
+			    },
+			    "spotify_song_has_acousticness_": {
+			      "Binding": {
+			        "ConceptualEntity": "Spotify Songs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "spotify_song": {
+			          "Target": {
+			            "Entity": "spotify_song"
+			          }
+			        },
+			        "spotify_song.acousticness_": {
+			          "Target": {
+			            "Entity": "spotify_song.acousticness_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "spotify_song"
+			            },
+			            "Object": {
+			              "Role": "spotify_song.acousticness_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "spotify_songs_have_acousticness_"
+			        }
+			      ]
+			    },
+			    "spotify_song_has_energy_": {
+			      "Binding": {
+			        "ConceptualEntity": "Spotify Songs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "spotify_song": {
+			          "Target": {
+			            "Entity": "spotify_song"
+			          }
+			        },
+			        "spotify_song.energy_": {
+			          "Target": {
+			            "Entity": "spotify_song.energy_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "spotify_song"
+			            },
+			            "Object": {
+			              "Role": "spotify_song.energy_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "spotify_songs_have_energy_"
+			        }
+			      ]
+			    },
+			    "spotify_song_has_valence_": {
+			      "Binding": {
+			        "ConceptualEntity": "Spotify Songs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "spotify_song": {
+			          "Target": {
+			            "Entity": "spotify_song"
+			          }
+			        },
+			        "spotify_song.valence_": {
+			          "Target": {
+			            "Entity": "spotify_song.valence_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "spotify_song"
+			            },
+			            "Object": {
+			              "Role": "spotify_song.valence_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "spotify_songs_have_valence_"
+			        }
+			      ]
+			    },
+			    "spotify_song_has_danceability_": {
+			      "Binding": {
+			        "ConceptualEntity": "Spotify Songs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "spotify_song": {
+			          "Target": {
+			            "Entity": "spotify_song"
+			          }
+			        },
+			        "spotify_song.danceability_": {
+			          "Target": {
+			            "Entity": "spotify_song.danceability_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "spotify_song"
+			            },
+			            "Object": {
+			              "Role": "spotify_song.danceability_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "spotify_songs_have_danceability_"
+			        }
+			      ]
+			    },
+			    "spotify_song_has_mode": {
+			      "Binding": {
+			        "ConceptualEntity": "Spotify Songs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "spotify_song": {
+			          "Target": {
+			            "Entity": "spotify_song"
+			          }
+			        },
+			        "spotify_song.mode": {
+			          "Target": {
+			            "Entity": "spotify_song.mode"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "spotify_song"
+			            },
+			            "Object": {
+			              "Role": "spotify_song.mode"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "spotify_songs_have_modes"
+			        }
+			      ]
+			    },
+			    "spotify_song_has_key": {
+			      "Binding": {
+			        "ConceptualEntity": "Spotify Songs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "spotify_song": {
+			          "Target": {
+			            "Entity": "spotify_song"
+			          }
+			        },
+			        "spotify_song.key": {
+			          "Target": {
+			            "Entity": "spotify_song.key"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "spotify_song"
+			            },
+			            "Object": {
+			              "Role": "spotify_song.key"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "spotify_songs_have_keys"
+			        }
+			      ]
+			    },
+			    "spotify_song_has_bpm": {
+			      "Binding": {
+			        "ConceptualEntity": "Spotify Songs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "spotify_song": {
+			          "Target": {
+			            "Entity": "spotify_song"
+			          }
+			        },
+			        "spotify_song.bpm": {
+			          "Target": {
+			            "Entity": "spotify_song.bpm"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "spotify_song"
+			            },
+			            "Object": {
+			              "Role": "spotify_song.bpm"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "spotify_songs_have_bpms"
+			        }
+			      ]
+			    },
+			    "spotify_song_has_in_shazam_chart": {
+			      "Binding": {
+			        "ConceptualEntity": "Spotify Songs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "spotify_song": {
+			          "Target": {
+			            "Entity": "spotify_song"
+			          }
+			        },
+			        "spotify_song.in_shazam_chart": {
+			          "Target": {
+			            "Entity": "spotify_song.in_shazam_chart"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "spotify_song"
+			            },
+			            "Object": {
+			              "Role": "spotify_song.in_shazam_chart"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "spotify_songs_have_in_shazam_chart"
+			        }
+			      ]
+			    },
+			    "spotify_song_has_in_deezer_chart": {
+			      "Binding": {
+			        "ConceptualEntity": "Spotify Songs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "spotify_song": {
+			          "Target": {
+			            "Entity": "spotify_song"
+			          }
+			        },
+			        "spotify_song.in_deezer_chart": {
+			          "Target": {
+			            "Entity": "spotify_song.in_deezer_chart"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "spotify_song"
+			            },
+			            "Object": {
+			              "Role": "spotify_song.in_deezer_chart"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "spotify_songs_have_in_deezer_chart"
+			        }
+			      ]
+			    },
+			    "spotify_song_has_in_deezer_playlist": {
+			      "Binding": {
+			        "ConceptualEntity": "Spotify Songs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "spotify_song": {
+			          "Target": {
+			            "Entity": "spotify_song"
+			          }
+			        },
+			        "spotify_song.in_deezer_playlist": {
+			          "Target": {
+			            "Entity": "spotify_song.in_deezer_playlist"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "spotify_song"
+			            },
+			            "Object": {
+			              "Role": "spotify_song.in_deezer_playlist"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "spotify_songs_have_in_deezer_playlist"
+			        }
+			      ]
+			    },
+			    "spotify_song_has_in_apple_chart": {
+			      "Binding": {
+			        "ConceptualEntity": "Spotify Songs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "spotify_song": {
+			          "Target": {
+			            "Entity": "spotify_song"
+			          }
+			        },
+			        "spotify_song.in_apple_chart": {
+			          "Target": {
+			            "Entity": "spotify_song.in_apple_chart"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "spotify_song"
+			            },
+			            "Object": {
+			              "Role": "spotify_song.in_apple_chart"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "spotify_songs_have_in_apple_chart"
+			        }
+			      ]
+			    },
+			    "spotify_song_has_in_apple_playlist": {
+			      "Binding": {
+			        "ConceptualEntity": "Spotify Songs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "spotify_song": {
+			          "Target": {
+			            "Entity": "spotify_song"
+			          }
+			        },
+			        "spotify_song.in_apple_playlist": {
+			          "Target": {
+			            "Entity": "spotify_song.in_apple_playlist"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "spotify_song"
+			            },
+			            "Object": {
+			              "Role": "spotify_song.in_apple_playlist"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "spotify_songs_have_in_apple_playlist"
+			        }
+			      ]
+			    },
+			    "spotify_song_has_stream": {
+			      "Binding": {
+			        "ConceptualEntity": "Spotify Songs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "spotify_song": {
+			          "Target": {
+			            "Entity": "spotify_song"
+			          }
+			        },
+			        "spotify_song.stream": {
+			          "Target": {
+			            "Entity": "spotify_song.stream"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "spotify_song"
+			            },
+			            "Object": {
+			              "Role": "spotify_song.stream"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "spotify_songs_have_streams"
+			        }
+			      ]
+			    },
+			    "spotify_song_has_in_spotify_chart": {
+			      "Binding": {
+			        "ConceptualEntity": "Spotify Songs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "spotify_song": {
+			          "Target": {
+			            "Entity": "spotify_song"
+			          }
+			        },
+			        "spotify_song.in_spotify_chart": {
+			          "Target": {
+			            "Entity": "spotify_song.in_spotify_chart"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "spotify_song"
+			            },
+			            "Object": {
+			              "Role": "spotify_song.in_spotify_chart"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "spotify_songs_have_in_spotify_chart"
+			        }
+			      ]
+			    },
+			    "spotify_song_has_in_spotify_playlist": {
+			      "Binding": {
+			        "ConceptualEntity": "Spotify Songs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "spotify_song": {
+			          "Target": {
+			            "Entity": "spotify_song"
+			          }
+			        },
+			        "spotify_song.in_spotify_playlist": {
+			          "Target": {
+			            "Entity": "spotify_song.in_spotify_playlist"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "spotify_song"
+			            },
+			            "Object": {
+			              "Role": "spotify_song.in_spotify_playlist"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "spotify_songs_have_in_spotify_playlist"
+			        }
+			      ]
+			    },
+			    "spotify_song_has_released_day": {
+			      "Binding": {
+			        "ConceptualEntity": "Spotify Songs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "spotify_song": {
+			          "Target": {
+			            "Entity": "spotify_song"
+			          }
+			        },
+			        "spotify_song.released_day": {
+			          "Target": {
+			            "Entity": "spotify_song.released_day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "spotify_song"
+			            },
+			            "Object": {
+			              "Role": "spotify_song.released_day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "spotify_songs_have_released_days"
+			        }
+			      ]
+			    },
+			    "spotify_song_has_released_month": {
+			      "Binding": {
+			        "ConceptualEntity": "Spotify Songs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "spotify_song": {
+			          "Target": {
+			            "Entity": "spotify_song"
+			          }
+			        },
+			        "spotify_song.released_month": {
+			          "Target": {
+			            "Entity": "spotify_song.released_month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "spotify_song"
+			            },
+			            "Object": {
+			              "Role": "spotify_song.released_month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "spotify_songs_have_released_months"
+			        }
+			      ]
+			    },
+			    "spotify_song_has_released_year": {
+			      "Binding": {
+			        "ConceptualEntity": "Spotify Songs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "spotify_song": {
+			          "Target": {
+			            "Entity": "spotify_song"
+			          }
+			        },
+			        "spotify_song.released_year": {
+			          "Target": {
+			            "Entity": "spotify_song.released_year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "spotify_song"
+			            },
+			            "Object": {
+			              "Role": "spotify_song.released_year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "spotify_songs_have_released_years"
+			        }
+			      ]
+			    },
+			    "spotify_song_has_artist_count": {
+			      "Binding": {
+			        "ConceptualEntity": "Spotify Songs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "spotify_song": {
+			          "Target": {
+			            "Entity": "spotify_song"
+			          }
+			        },
+			        "spotify_song.artist_count": {
+			          "Target": {
+			            "Entity": "spotify_song.artist_count"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "spotify_song"
+			            },
+			            "Object": {
+			              "Role": "spotify_song.artist_count"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "spotify_songs_have_artist_counts"
+			        }
+			      ]
+			    },
+			    "spotify_song_has_artist_name": {
+			      "Binding": {
+			        "ConceptualEntity": "Spotify Songs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "spotify_song": {
+			          "Target": {
+			            "Entity": "spotify_song"
+			          }
+			        },
+			        "spotify_song.artist_name": {
+			          "Target": {
+			            "Entity": "spotify_song.artist_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "spotify_song"
+			            },
+			            "Object": {
+			              "Role": "spotify_song.artist_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "spotify_songs_have_artist_names"
+			        }
+			      ]
+			    },
+			    "spotify_song_has_track_name": {
+			      "Binding": {
+			        "ConceptualEntity": "Spotify Songs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "spotify_song": {
+			          "Target": {
+			            "Entity": "spotify_song"
+			          }
+			        },
+			        "spotify_song.track_name": {
+			          "Target": {
+			            "Entity": "spotify_song.track_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "spotify_song"
+			            },
+			            "Object": {
+			              "Role": "spotify_song.track_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "spotify_songs_have_track_names"
+			        }
+			      ]
+			    },
+			    "spotify_song_is_released_in_released_date_hierarchy_released_year": {
+			      "Binding": {
+			        "ConceptualEntity": "Spotify Songs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "spotify_song": {
+			          "Target": {
+			            "Entity": "spotify_song"
+			          }
+			        },
+			        "spotify_song.released_date_hierarchy.released_year": {
+			          "Target": {
+			            "Entity": "spotify_song.released_date_hierarchy.released_year"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "When": {
+			          "Role": "spotify_song.released_date_hierarchy.released_year"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Verbs": [
+			              {
+			                "release": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "spotify_song"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.9,
+			          "ID": "spotify_songs_are_released_on_released_years"
+			        }
+			      ]
+			    },
+			    "spotify_song_is_released_on_release_date": {
+			      "Binding": {
+			        "ConceptualEntity": "Spotify Songs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "spotify_song": {
+			          "Target": {
+			            "Entity": "spotify_song"
+			          }
+			        },
+			        "spotify_song.release_date": {
+			          "Target": {
+			            "Entity": "spotify_song.release_date"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "When": {
+			          "Role": "spotify_song.release_date"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Verbs": [
+			              {
+			                "release": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "spotify_song"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.9,
+			          "ID": "spotify_songs_are_released_on_release_dates"
+			        }
+			      ]
+			    },
+			    "spotify_song_is_released_in_released_year": {
+			      "Binding": {
+			        "ConceptualEntity": "Spotify Songs"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "spotify_song": {
+			          "Target": {
+			            "Entity": "spotify_song"
+			          }
+			        },
+			        "spotify_song.released_year": {
+			          "Target": {
+			            "Entity": "spotify_song.released_year"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "When": {
+			          "Role": "spotify_song.released_year"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Verbs": [
+			              {
+			                "release": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "spotify_song"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.9,
+			          "ID": "spotify_songs_are_released_on_released_years1"
+			        }
+			      ]
+			    }
+			  }
 			}
 		contentType: json
 

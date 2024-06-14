@@ -1,0 +1,13 @@
+EVALUATE
+SELECTCOLUMNS(
+	TOPN(
+		1, 
+		SUMMARIZE(
+				'Spotify Songs', 
+				'Spotify Songs'[Track Name], 
+				"TotalStreams", SUM('Spotify Songs'[Streams])
+		),
+		[TotalStreams], DESC
+	),
+	'Spotify Songs'[Track Name]
+)
