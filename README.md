@@ -20,6 +20,8 @@ pip install -r src/requirements.txt
 
 **4. Create '.env' and fill the variables as in the 'env-template'**
 
+**5. Add the csv file to the data folder**
+
 
 ## References
 * Sample dataset from: https://www.kaggle.com/datasets/zeesolver/spotfy
