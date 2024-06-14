@@ -1,2 +1,4 @@
 .venv
 .env
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
