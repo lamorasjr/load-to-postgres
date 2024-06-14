@@ -1,0 +1,5 @@
+relationship 2ba1ffb3-9813-42d2-b8fa-d69ba1ec456b
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'Spotify Songs'.'Release Date'
+	toColumn: LocalDateTable_3faa6600-61c9-4eb9-b230-d5870a878415.Date
+
