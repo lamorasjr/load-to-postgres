@@ -1,0 +1,84 @@
+table 'Data Quality'
+	lineageTag: 3f8ab7c2-6050-4fa3-a917-70b1e15ebb00
+
+	column Column
+		dataType: string
+		lineageTag: 21e6da38-2e3c-47f2-81a8-a7c95094ab77
+		summarizeBy: none
+		sourceColumn: Column
+
+		annotation SummarizationSetBy = Automatic
+
+	column Min
+		dataType: string
+		lineageTag: 3b68bb8d-6566-4232-ae3c-1b85308c478b
+		summarizeBy: none
+		sourceColumn: Min
+
+		annotation SummarizationSetBy = Automatic
+
+	column Max
+		dataType: string
+		lineageTag: 5076ec96-e7fc-4ec4-b538-f6f87722ad72
+		summarizeBy: none
+		sourceColumn: Max
+
+		annotation SummarizationSetBy = Automatic
+
+	column Average
+		dataType: string
+		lineageTag: d85a4296-dbdd-4aa6-a3cf-82e4b3381dc8
+		summarizeBy: none
+		sourceColumn: Average
+
+		annotation SummarizationSetBy = Automatic
+
+	column StandardDeviation
+		dataType: double
+		lineageTag: 3aad4f75-d8f4-4fc1-a482-d9c56e93431d
+		summarizeBy: sum
+		sourceColumn: StandardDeviation
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Count
+		dataType: double
+		lineageTag: 9e674605-02bd-4093-a7fc-89c86c43458e
+		summarizeBy: sum
+		sourceColumn: Count
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column NullCount
+		dataType: string
+		lineageTag: fc2b4978-19d3-4536-a2a2-12260ed52a39
+		summarizeBy: none
+		sourceColumn: NullCount
+
+		annotation SummarizationSetBy = Automatic
+
+	column DistinctCount
+		dataType: string
+		lineageTag: 297e0674-0d72-43c0-82d7-6570caef2b0d
+		summarizeBy: none
+		sourceColumn: DistinctCount
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Data Quality' = m
+		mode: import
+		source =
+				let
+				    Source = Table.Profile(#"Spotify Songs"),
+				    #"Filtered Rows" = Table.SelectRows(Source, each ([Column] <> "Artist Name" and [Column] <> "Key" and [Column] <> "Mode" and [Column] <> "Released Day" and [Column] <> "Released Month" and [Column] <> "Released Year" and [Column] <> "Streams" and [Column] <> "Track Name"))
+				in
+				    #"Filtered Rows"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+
