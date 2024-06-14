@@ -1,5 +1,14 @@
-# import 
+import pandas as pd
+from sqlalchemy import create_engine
+from dotenv import load_dotenv
+import os
 
-# import das variaveis de ambiente
+# Get enviroment variables
+DB_USER =
+DB_PASSWORD =
+DB_HOST = 
+DB_PORT =
+DB_NAME = 
 
-# 
+
+engine = create_engine(f"postgresql://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}")
